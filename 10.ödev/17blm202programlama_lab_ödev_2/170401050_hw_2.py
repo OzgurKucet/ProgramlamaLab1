@@ -97,7 +97,7 @@ for i,j in AyFrekansı.items():
 
 sayilar1 = buble_sort(sayilar)
 
-with open("output_dir_name/output_dir_name.txt","w") as dosya:
+with open("output_dir_name/170401050_hw_2_output.txt","w") as dosya:
     x = MedianBulma(sayilar1)
     dosya.write("Medyan"+" "+str(x)+"\n")
     dosya.write("Ortalama"+" "+str(ListeOrtalama(sayilar1)))
