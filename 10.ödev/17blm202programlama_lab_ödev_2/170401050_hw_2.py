@@ -4,7 +4,7 @@ Created on Fri Apr  3 18:04:51 2020
 
 @author: Ozgur Kucet
 """
-
+import sys
 import csv
 
 def my_frequency_with_dict(list):
@@ -57,7 +57,7 @@ def MedianBulma(liste):#Videoda yanlışlık vardı düzelttim birdaha bak
         median = (middle1+middle2)/2
     return median
 
-with open("input_dir_name/input_hw_2.csv","r") as dosya:
+with open(sys.argv[1]+"/input_hw_2.csv","r") as dosya:
     içerik = dosya.read()
     i=0
     insan = içerik.split(";")
@@ -97,7 +97,7 @@ for i,j in AyFrekansı.items():
 
 sayilar1 = buble_sort(sayilar)
 
-with open("output_dir_name/170401050_hw_2_output.txt","w") as dosya:
+with open(sys.argv[2]+"/170401050_hw_2_output.txt","w") as dosya:
     x = MedianBulma(sayilar1)
     dosya.write("Medyan"+" "+str(x)+"\n")
     dosya.write("Ortalama"+" "+str(ListeOrtalama(sayilar1)))
