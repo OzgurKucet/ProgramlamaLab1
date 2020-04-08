@@ -72,20 +72,6 @@ with open(sys.argv[1]+"/input_hw_2.csv","r") as dosya:
         
     AyFrekansı = my_frequency_with_dict(cıkısAyı)
     
-    for i in range(1,13):
-        if i<10:
-            a = str(i)
-            b = "0"
-            c = b+a
-            if c in AyFrekansı:
-                pass
-            else:
-                AyFrekansı[c] = 0
-        if i>10:
-            if str(i) in AyFrekansı:
-                pass
-            else:
-                AyFrekansı[str(i)] = 0
             
 print(AyFrekansı)
 print()
