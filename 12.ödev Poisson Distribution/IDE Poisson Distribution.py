@@ -23,4 +23,4 @@ olasilik = part_1/part_2#Olasıllığın hesaplandığı formül.
 pprint(olasilik)
 
 syp.plot(olasilik.subs({lamda:5}),(x,0,10),title="Poisson Distribution")
-syp.show()
+plt.show()
