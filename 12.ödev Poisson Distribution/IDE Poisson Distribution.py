@@ -23,4 +23,13 @@ olasilik = part_1/part_2#Olasıllığın hesaplandığı formül.
 pprint(olasilik)
 
 syp.plot(olasilik.subs({lamda:5}),(x,0,10),title="Poisson Distribution")
-plt.show()
+plt.show() # Sympy sayesinde çizilen grafik
+
+x_value=[]
+y_value=[]
+for value in range(12):
+    y=olasilik.subs({lamda:5,x:value}).evalf()
+    y_value.append(y)#Listeye alma işlemi
+    x_value.append(value)
+plt.plot(x_value,y_value)
+plt.show()#Matplotlib yöntemiyle çıktı veren grafik:
