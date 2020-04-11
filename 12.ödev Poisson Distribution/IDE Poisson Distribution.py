@@ -5,7 +5,6 @@ Created on Sat Apr 11 02:56:06 2020
 @author: Ozgur Kucet
 """
 
-
 from sympy import Symbol,pprint
 import sympy as sym
 import sympy.plotting as syp
