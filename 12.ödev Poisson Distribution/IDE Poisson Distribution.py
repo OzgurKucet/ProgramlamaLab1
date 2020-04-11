@@ -11,12 +11,6 @@ import sympy as sym
 import sympy.plotting as syp
 import matplotlib.pyplot as plt
 
-def faktoriyel(n):
-    if n == 0:
-        return 1
-    else:
-        return n * faktoriyel(n-1)
-
 x = Symbol('x')# x istenilen olasılık adedi
 lamda=Symbol('lambda')#lamda sürecin verilen ortalama değeri
 """
