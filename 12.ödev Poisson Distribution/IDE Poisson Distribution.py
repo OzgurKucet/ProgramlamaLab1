@@ -2,7 +2,9 @@
 """
 Created on Sat Apr 11 02:56:06 2020
 
-@author: Ozgur Kucet
+@author: Ozgur Kucet 170401050
+
+https://github.com/OzgurKucet/ProgramlamaLab1/blob/master/12.%C3%B6dev%20Poisson%20Distribution/IDE%20Poisson%20Distribution.py
 """
 
 from sympy import Symbol,pprint

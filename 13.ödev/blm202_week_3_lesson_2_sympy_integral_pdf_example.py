@@ -2,7 +2,9 @@
 """
 Created on Thu Apr 16 20:37:35 2020
 
-@author: Ozgur Kucet
+@author: Ozgur Kucet 170401050
+
+https://github.com/OzgurKucet/ProgramlamaLab1/blob/master/13.%C3%B6dev/blm202_week_3_lesson_2_sympy_integral_pdf_example.py
 """
 
 
